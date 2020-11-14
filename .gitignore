@@ -42,3 +42,4 @@ app.*.map.json
 /.blackbox/pubring.gpg~
 /.blackbox/pubring.kbx~
 /.blackbox/secring.gpg
+/lib/env/production_secrets.dart
