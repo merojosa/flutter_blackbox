@@ -15,6 +15,11 @@ class MyApp extends StatelessWidget {
   final Secrets secrets;
   @override
   Widget build(BuildContext context) {
-    return Provider<Secrets>.value(value: secrets, child: Text("JEJE"));
+    return MaterialApp(
+      title: "PRIME CEACO",
+      home: Center(
+        child: Provider<Secrets>.value(value: secrets, child: Text(secrets.firebaseApiKey))
+      ),
+    );
   }
 }
