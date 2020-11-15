@@ -3,7 +3,7 @@
 https://github.com/StackExchange/blackbox
 
 ## Obtener la llave
-
+```blackbox_postdeploy```
 
 ## Build
 
