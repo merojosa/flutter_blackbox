@@ -4,6 +4,7 @@ https://github.com/StackExchange/blackbox
 
 ## Obtener la llave
 ```blackbox_postdeploy```
+La contraseña es: 12345678
 
 ## Build
 
